@@ -48,7 +48,7 @@ public class RunCucumberTest implements WebDriverProvider, En {
         caps.setCapability("noReset", "false");
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
-        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         caps.setCapability("chromedriverExecutable", "/Applications/chromedriver" );
 
         URL url = null;
@@ -59,4 +59,5 @@ public class RunCucumberTest implements WebDriverProvider, En {
         }
         return new AndroidDriver(url, caps);
     }
+
 }
