@@ -1,0 +1,1 @@
+This is the web test automation project for testing http://the-internet.herokuapp.com/ website. It was built using Java 8, Selenium 3, Cucumber and Selenide frameworks [http://selenide.org/index.html ].
